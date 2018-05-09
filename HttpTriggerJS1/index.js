@@ -4,7 +4,7 @@ module.exports = function (context, req) {
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
             // status: 200, /* Defaults to 200 */
-            body: "Holaaaa John " + (req.query.name || req.body.name)
+            body: "Holaaaa John2 " + (req.query.name || req.body.name)
         };
     }
     else {
